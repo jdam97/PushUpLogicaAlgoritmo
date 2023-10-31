@@ -2,7 +2,7 @@
 let n = prompt(`Ingrese un número(n)`)
 //let m = prompt(`¿cuantos numeros de secuencia desea ver de fibonacci? (m) `)
 
-let nfibonacci = function (n,m){
+let nfibonacci = function (n){
     if (n>40) { // no acepta números mayores a 40
         return alert(`${n} No es un numero de fibonacci`)
     }
@@ -14,4 +14,4 @@ let nfibonacci = function (n,m){
     }
 }
 alert(`Número fibonacci: ${nfibonacci(n)}`);
-
+ 
